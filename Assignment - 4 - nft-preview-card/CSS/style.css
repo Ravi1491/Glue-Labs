@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+ 
+.outer-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55%;
+    height: 65%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 7px 24px 5px hsl(215deg 32% 27%);
+    background-color: hsl(216, 50%, 16%);
+}
+
+.ethimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px -7px 0px;
+    background-image: url('images/icon-view.svg');
+    background-color: hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: center;
+}
+
+.ethimg img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%; 
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: opacity .0s ease;
+}
+
+.ethimg:hover img{
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 80%;
+    height: 45%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box h4{
+    /* border: 2px solid red; */
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0;
+}
+.box h4:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+.box #para{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    color: hsl(215, 51%, 70%);
+}
+
+.box #eth{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    color: hsl(178, 100%, 50%);
+    margin: 15px 0;
+}
+.box #ethpara{
+    font-weight: bold;
+}
+
+.box #time{
+    color: hsl(215, 51%, 70%);
+}
+
+.box #time img{
+    margin: -2px 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box #aim{
+    width: 30px;
+    height: 30px;
+    color: hsl(215, 51%, 70%);
+    border: 2px solid white;
+    border-radius: 16px;
+    margin: 6px 0px;
+}
+
+.box #author {
+    margin: 20px 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.box #author span{
+    color: hsl(0, 0%, 100%)
+}
+
+.box #author span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.line{
+    font-weight: lighter;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+@media (max-width:500px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 15px;
+        font-family: 'Outfit',Arial, Helvetica, sans-serif;
+        background-color: white;
+        width: 375px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        height: 100vh;
+        width: 375px;
+        background-color: hsl(217, 54%, 11%);
+    }
+    .outer-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin: 0px 29px;
+        width: 80%;
+        height: 72%;
+        font-size: 13px;
+    }
+}
