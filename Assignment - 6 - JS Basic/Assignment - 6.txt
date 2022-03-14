@@ -1,0 +1,3 @@
+String - https://jsbin.com/badomux/edit?js,console
+Array - https://jsbin.com/macafam/edit?js,console
+Object - https://jsbin.com/bufaxus/edit?js,console
