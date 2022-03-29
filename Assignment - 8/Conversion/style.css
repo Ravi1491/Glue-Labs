@@ -1,0 +1,10 @@
+.card-block h4,span{
+    display: inline-block;
+}
+
+.form-group input{
+    width: 49.8%;
+}
+.btn{
+    background-color: rgb(202, 40, 40);
+}

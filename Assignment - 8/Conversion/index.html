@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center mb-3">Converter</h1>
+        <form>
+            <h4 class="display-5 text-left mb-3">Weight</h4>
+            <div class="form-group">
+                <input type="number" id="kgsInput" class="form-control-sm" placeholder="Enter Kilograms...">
+                <input type="button" class="form-control-sm btn" value="Convert" id="btnWeight">
+            </div>
+        </form>
+        <div class="card card-primary mb-2">
+            <div class="card-block">
+                <h4>Pounds:</h4>
+                <span id="lbsOutput"></span>
+            </div>
+        </div>
+        <br>
+        <form>
+            <h4 class="display-5 text-left mb-3">Feet</h4>
+            <div class="form-group">
+                <input type="number" id="feetInput" class="form-control-sm" placeholder="Enter Feet...">
+                <input type="button" class="form-control-sm btn" value="Convert" id="btnMeasure">
+            </div>
+        </form>
+        <div class="card card-success mb-2">
+            <div class="card-block">
+                <h4>centimeter:</h4>
+                <span id="cmsOutput"></span>
+            </div>
+        </div>
+        <br>
+        <form>
+            <h4 class="display-5 text-left mb-3">Celsius</h4>
+            <div class="form-group">
+                <input type="number" id="CelsiusInput" class="form-control-sm" placeholder="Enter Celsius...">
+                <input type="button" class="form-control-sm btn" value="Convert" id="btnCelsius">
+            </div>
+        </form>
+        <div class="card card-info mb-2">
+            <div class="card-block">
+                <h4>Fahrenheit:</h4>
+                <span id="FahrenheitOutput"></span>
+            </div>
+        </div>
+        <br>
+        <form>
+            <h4 class="display-5 text-left mb-3">Kilometer</h4>
+            <div class="form-group">
+                <input type="number" id="meterInput" class="form-control-sm" placeholder="Enter Kilometer...">
+                <input type="button" class="form-control-sm btn" value="Convert" id="btnkilometer">
+            </div>
+        </form>
+        <div class="card card-warning mb-2">
+            <div class="card-block">
+                <h4>Meter:</h4>
+                <span id="meterOutput"></span>
+            </div>
+        </div>
+        <br>
+        <form>
+            <h4 class="display-5 text-left mb-3">Centimeter</h4>
+            <div class="form-group">
+                <input type="number" id="centiInput" class="form-control-sm" placeholder="Enter Centimeter...">
+                <input type="button" class="form-control-sm btn" value="Convert" id="btncenti">
+            </div>
+        </form>
+        <div class="card card-info mb-2">
+            <div class="card-block">
+                <h4>Inch:</h4>
+                <span id="inchOutput"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
