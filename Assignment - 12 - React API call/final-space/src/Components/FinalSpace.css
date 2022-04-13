@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./fs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    margin: 25px 0;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100%;
+    margin: 0% 12%;
+    border: 2px solid red;
+    background-color: rgb(23 14 17);
+    line-height: 40px;
+    padding: 0 30px;
+    margin-top: 10%;
+    text-align: left;
+    /* margin-bottom: -21px; */
+}
+
+.fsimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5% 37%;
+}
+
+strong{
+    color: aqua;
+    font-size: 18px;
+}
+
+#alias{
+    display: inline-block;
+}
+
+#ability{
+    display: inline-block;
+}
+
+#name{
+    font-size: 20px;
+    color: aqua;
+    text-decoration: underline;
+    text-align: center;
+}
+
