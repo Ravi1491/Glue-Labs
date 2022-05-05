@@ -17,7 +17,10 @@ function createUserCard(data){
         const birthday = value.birthday;
         const status = value.status;
         const nickname = value.nickname;
+
         const occupation = `${value.occupation[0]}`;
+
+
         const portrayed = value.portrayed;
         const category = value.category;
         const btcs = value.better_call_saul_appearance;
